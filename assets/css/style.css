@@ -32,3 +32,23 @@
       background-color: gray;
       color: black;
   }
+
+  * {box-sizing: border-box;
+}
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .side {
+        flex: 30%;
+        background-color: gray;
+        padding: 20px;
+    }
+
+    .main {
+        flex: 70%;
+        background-color: white;
+        padding: 20%;
+    }
